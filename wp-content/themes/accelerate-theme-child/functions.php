@@ -19,7 +19,7 @@ function accelerate_child_scripts()
 }
 add_action('wp_enqueue_scripts', 'accelerate_child_scripts');
 
-//create custom post types
+//create custom post types - case studies
 function create_custom_post_types()
 {
   register_post_type(
@@ -36,3 +36,21 @@ function create_custom_post_types()
   );
 }
 add_action('init', 'create_custom_post_types');
+
+//create custom post types - services
+function create_custom_post_services()
+{
+  register_post_type(
+    'services',
+    array(
+      'labels' => array(
+        'name' => __('Services'),
+        'singular_name' => __('Service')
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'rewrite' => array('slug' => 'services'),
+    )
+  );
+}
+add_action('init', 'create_custom_post_services');
