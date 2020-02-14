@@ -17,8 +17,8 @@ get_header(); ?>
 
 <div id="primary" class="site-content sidebar page-404-container">
   <div class="main-content" role="main">
+    <h1 class="page-404-head">404 Error</h1>
     <div class="page-404-para">
-      <h1>404 Error</h1>
       <p>Ahoy, Matey.</p>
       <p>Looks like the ship (aka page) has sailed.</p>
       <p>It cannot be found.</p>

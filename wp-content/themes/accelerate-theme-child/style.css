@@ -186,19 +186,16 @@ div.case-study-images img {
   display: block;
 }
 .about-service-intro-heading {
-  font-family: 'Luckiest Guy', cursive;
   font-size: 1em;
   text-align: center;
 }
 
 .about-service-intro-para {
-  font-family: 'Luckiest Guy', cursive;
   font-size: 1em;
   line-height: 1.5em;
   text-align: center;
   padding-bottom: 2.5em;
 }
-
 .about-service-row {
   display: flex;
   justify-content: space-between;
@@ -249,17 +246,22 @@ div.case-study-images img {
 .page-404-img {
   margin: 0 auto;
   display: inline-block;
-  width: 35%;
+  width: 300px;
+}
+.page-404-head {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.5em;
+  text-align: center;
 }
 
 .page-404-para {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 2em;
-  background: red;
-  font-weight: bold;
-  line-height: 1.5em;
   margin: 0 auto;
-  width: 60%;
+  width: 500px;
   display: inline-block;
   text-align: center;
+}
+.page-404-para p {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.5em;
+  line-height: 1em;
 }
